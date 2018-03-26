@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Test" duration-ms="61164" started-at="2018-03-25T11:24:12Z" finished-at="2018-03-25T11:25:13Z">
+    <groups>
+    </groups>
+    <test name="Reg" duration-ms="61164" started-at="2018-03-25T11:24:12Z" finished-at="2018-03-25T11:25:13Z">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7d9d1a19]" name="setup" is-config="true" duration-ms="13552" started-at="2018-03-25T16:54:22Z" finished-at="2018-03-25T16:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="usernameTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@7d9d1a19]" name="usernameTest" duration-ms="4" started-at="2018-03-25T16:54:36Z" finished-at="2018-03-25T16:54:36Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.crm.qa.testcases.HomePageTest.usernameTest(HomePageTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="673" started-at="2018-03-25T16:54:36Z" finished-at="2018-03-25T16:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7d9d1a19]" name="setup" is-config="true" duration-ms="13112" started-at="2018-03-25T16:54:45Z" finished-at="2018-03-25T16:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomeTitleTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@7d9d1a19]" name="verifyHomeTitleTest" duration-ms="26" started-at="2018-03-25T16:54:58Z" finished-at="2018-03-25T16:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="781" started-at="2018-03-25T16:54:58Z" finished-at="2018-03-25T16:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="setup" is-config="true" duration-ms="9399" started-at="2018-03-25T16:54:12Z" finished-at="2018-03-25T16:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="title()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="title" duration-ms="238" started-at="2018-03-25T16:54:21Z" finished-at="2018-03-25T16:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method status="PASS" signature="moodu()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="moodu" is-config="true" duration-ms="712" started-at="2018-03-25T16:54:22Z" finished-at="2018-03-25T16:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moodu -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="setup" is-config="true" duration-ms="7695" started-at="2018-03-25T16:54:36Z" finished-at="2018-03-25T16:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Logo()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="Logo" duration-ms="249" started-at="2018-03-25T16:54:44Z" finished-at="2018-03-25T16:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo -->
+        <test-method status="PASS" signature="moodu()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="moodu" is-config="true" duration-ms="750" started-at="2018-03-25T16:54:44Z" finished-at="2018-03-25T16:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moodu -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="setup" is-config="true" duration-ms="7426" started-at="2018-03-25T16:54:59Z" finished-at="2018-03-25T16:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="data()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="data" duration-ms="5795" started-at="2018-03-25T16:55:07Z" finished-at="2018-03-25T16:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method status="PASS" signature="moodu()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4883b407]" name="moodu" is-config="true" duration-ms="678" started-at="2018-03-25T16:55:12Z" finished-at="2018-03-25T16:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moodu -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Reg -->
+  </suite> <!-- FREE CRM Test -->
+</testng-results>
